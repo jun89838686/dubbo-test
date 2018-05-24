@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dubbo.company.core.dao.CompanyMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.dubbo.company.api.entity.Company">
+		<id column="ID" property="id" />
+		<result column="ACCOUNT_NO" property="accountNo" />
+		<result column="COMPANY_NAME" property="companyName" />
+		<result column="COMPANY_TYPE" property="companyType" />
+		<result column="PARAM1" property="param1" />
+		<result column="PARAM2" property="param2" />
+		<result column="PARAM3" property="param3" />
+		<result column="PARAM4" property="param4" />
+		<result column="PARAM5" property="param5" />
+		<result column="PARAM6" property="param6" />
+		<result column="PARAM7" property="param7" />
+		<result column="PARAM8" property="param8" />
+		<result column="PARAM9" property="param9" />
+		<result column="PARAM10" property="param10" />
+		<result column="PARAM11" property="param11" />
+		<result column="PARAM12" property="param12" />
+		<result column="PARAM13" property="param13" />
+		<result column="PARAM14" property="param14" />
+		<result column="PARAM15" property="param15" />
+		<result column="PARAM16" property="param16" />
+		<result column="PARAM17" property="param17" />
+		<result column="PARAM18" property="param18" />
+		<result column="PARAM19" property="param19" />
+		<result column="PARAM20" property="param20" />
+		<result column="PARAM21" property="param21" />
+		<result column="PARAM22" property="param22" />
+		<result column="PARAM23" property="param23" />
+		<result column="PARAM24" property="param24" />
+		<result column="PARAM25" property="param25" />
+		<result column="PARAM26" property="param26" />
+	</resultMap>
+
+	<select id="selectCompanyById" parameterType="java.lang.Long" resultMap="BaseResultMap">
+		select * from company where id = #{id}
+	</select>
+</mapper>

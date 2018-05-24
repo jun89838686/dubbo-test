@@ -1,0 +1,5 @@
+com\dubbo\company\core\service\support\BaseServiceImpl.class
+com\dubbo\company\core\dao\CompanyMapper.class
+com\dubbo\company\core\service\impl\CompanyServiceImpl.class
+com\dubbo\company\core\util\AutoGeneratorHelper.class
+com\dubbo\company\core\main\InitCompanyService.class

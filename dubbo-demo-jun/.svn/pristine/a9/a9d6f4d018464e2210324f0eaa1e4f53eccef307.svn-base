@@ -1,0 +1,2 @@
+com\dubbo\user\api\entity\User.class
+com\dubbo\user\api\face\IUserService.class

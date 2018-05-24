@@ -1,0 +1,5 @@
+com\dubbo\user\core\dao\UserMapper.class
+com\dubbo\user\core\main\InitUserService.class
+com\dubbo\user\core\service\support\BaseServiceImpl.class
+com\dubbo\user\core\service\impl\UserServiceImpl.class
+com\dubbo\user\core\util\AutoGeneratorHelper.class
